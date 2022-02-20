@@ -1,0 +1,17 @@
+-Find out possible moves
+-For every possible move:
+    if it takes Corner piece -> points = 100
+    if it takes X square or C square and the corner still isn't played -> points = -100
+    from other moves -> points = eval_board()
+
+eval_board():
+    return tuple (0 possible moves, 1 possible moves)
+    find the one which give me the best my to opponent possible moves ratio
+    (possibly after simulating another few rounds)
+
+v2 vs v3
+396  583
+371  605
+
+v2 vs v4
+477  495

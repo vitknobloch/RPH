@@ -1,0 +1,7 @@
+a = set([1,2,3,3])
+print(a)
+b = set([5,2,3,4])
+print(b)
+print(a | b)
+print(a & b)
+print()

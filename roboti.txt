@@ -1,0 +1,8 @@
+moveLeft()
+while not ifStart():
+    moveLeft()
+    noMove()
+while True:
+    moveLeft()
+    moveLeft()
+    
